@@ -1,0 +1,5 @@
+SHOW TABLES;
+
+DROP TABLE `test`;
+
+SHOW TABLES;

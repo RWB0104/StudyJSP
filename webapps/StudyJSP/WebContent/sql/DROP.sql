@@ -1,0 +1,5 @@
+ALTER TABLE `member` ADD
+(
+	address VARCHAR(100) NOT NULL,
+    tel VARCHAR(20) NOT NULL
+);
