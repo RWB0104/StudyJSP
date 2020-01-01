@@ -8,9 +8,9 @@
 	
 	<title>jQuery 이벤트처리</title>
 	
-	<script src="../../js/lib/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="../../js/lib/jquery-3.4.1.min.js"></script>
 	
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function()
         {
 			// <p> 엘리먼트에 마우스 포인터를 위치시키면 자동 실행

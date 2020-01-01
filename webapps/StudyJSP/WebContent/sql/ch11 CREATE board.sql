@@ -1,0 +1,14 @@
+CREATE TABLE `board`
+(
+	num INT NOT NULL KEY AUTO_INCREMENT,
+	writer VARCHAR(50) NOT NULL,
+	subject VARCHAR(50) NOT NULL,
+	content TEXT NOT NULL,
+	passwd VARCHAR(60) NOT NULL,
+	reg_date DATETIME NOT NULL,
+	ip VARCHAR(30) NOT NULL,
+	readcount INT DEFAULT 0,
+	ref INT NOT NULL,
+	re_step SMALLINT NOT NULL,
+	re_lebel SMALLINT NOT NULL
+);

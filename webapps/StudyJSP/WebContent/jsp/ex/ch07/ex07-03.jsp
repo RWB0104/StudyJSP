@@ -8,9 +8,9 @@
 	
 	<title>ex07-03.jsp</title>
 	
-	<script src="../../../js/lib/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="../../../js/lib/jquery-3.4.1.min.js"></script>
 	
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function()
         {
 	        $("#submit").click(function()

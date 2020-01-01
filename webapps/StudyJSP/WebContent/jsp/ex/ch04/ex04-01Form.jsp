@@ -16,7 +16,7 @@
 		}
 	</style>
 	
-	<script type="text/javascript">
+	<script>
 		function cls()
 		{
 			document.getElementById("name").value = "";

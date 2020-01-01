@@ -8,9 +8,9 @@
 	
 	<title>jQuery Ajax 메소드 - load() 응답처리</title>
 	
-	<script src="../../js/lib/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="../../js/lib/jquery-3.4.1.min.js"></script>
 	
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function()
         {
 	        // [결과] 버튼을 클릭하면 xhrTest3.txt가 <div id="result"> 엘리먼트에 로드

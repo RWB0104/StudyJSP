@@ -8,9 +8,9 @@
 	
 	<title>jQuery 실렉터와 메소드를 사용한 엘리먼트의 내용변경</title>
 	
-	<script src="../../js/lib/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="../../js/lib/jquery-3.4.1.min.js"></script>
 	
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function()
         {
 			// <button id="b1"> 엘리먼트를 클릭하면 자동 실행

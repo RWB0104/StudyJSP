@@ -8,9 +8,9 @@
 	
 	<title>jQuery Ajax 메소드 - $.get()</title>
 	
-	<script src="../../js/lib/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="../../js/lib/jquery-3.4.1.min.js"></script>
 	
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function()
         {
 	        $("#b1").click(function()

@@ -15,7 +15,7 @@
 	<title>selectPro.jsp</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-	<link href="../../css/style.css" rel="stylesheet">
+	<link href="../../css/style.css" rel="stylesheet" />
 	
 	<style type="text/css">
 		* {

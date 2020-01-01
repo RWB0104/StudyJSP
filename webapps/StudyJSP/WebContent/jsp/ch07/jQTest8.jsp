@@ -8,9 +8,9 @@
 	
 	<title>jQuery Ajax 메소드 - $.ajax()</title>
 	
-	<script src="../../js/lib/jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="../../js/lib/jquery-3.4.1.min.js"></script>
 	
-	<script type="text/javascript">
+	<script>
 		$(document).ready(function()
         {
 			// [결과] 버튼을 클릭하면 자동 실행

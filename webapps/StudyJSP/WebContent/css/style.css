@@ -39,7 +39,7 @@ ul, li{
 }
 .article{
 	clear: both;
-	display: box;
+	display: inline-block;
 	margin : 5px;
 	width : 90%;
 	border : 1px solid black;

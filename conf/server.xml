@@ -43,6 +43,14 @@
               description="User database that can be updated and saved"
               factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
               pathname="conf/tomcat-users.xml" />
+    
+    <Resource name="jdbc/jsptest" auth="Container"
+		      type="javax.sql.DataSource"
+		      driverClassName="com.mysql.jdbc.Driver"
+		      username="rwb"
+		      password="rwb"
+		      url="jdbc:mysql://localhost:3306/jsptest?serverTimezone=UTC"
+		      maxWait="5000" />
   </GlobalNamingResources>
 
   <!-- A "Service" is a collection of one or more "Connectors" that share
@@ -155,7 +163,15 @@
         <!-- Access log processes all example.
              Documentation at: /docs/config/valve.html
              Note: The pattern used is equivalent to using pattern="common" -->
-          <Context path="/" docBase="C:\Users\psj17\source\eclipse-workspace\StudyJSP\webapps\StudyJSP\WebContent" reloadable="true"/>
+          <Context path="/" docBase="C:\Users\psj17\source\eclipse-workspace\StudyJSP\webapps\StudyJSP\WebContent" reloadable="true">
+            <Resource name="jsp/test" auth="Container"
+		              type="javax.sql.DataSource"
+		              driverClassName="com.mysql.jdbc.Driver"
+		              username="rwb"
+		              password="rwb"
+		              url="jdbc:mysql://localhost:3306/jsptest?serverTimezone=UTC"
+		              maxWait="5000" />
+          </Context>
           <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" prefix="localhost_access_log" suffix=".txt" pattern="%h %l %u %t &quot;%r&quot; %s %b" />
       </Host>
     </Engine>
