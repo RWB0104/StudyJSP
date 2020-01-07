@@ -1,0 +1,17 @@
+<tlib-version>1.0</tlib-version>
+<short-name>tags</short-name>
+
+<tag>
+	<name>message</name>
+	<path>/META-INF/tags/message.tag</path>
+</tag>
+
+<tag>
+	<name>tagBody</name>
+	<path>/META-INF/tags/tagBody.tag</path>
+</tag>
+
+<tag>
+	<name>attribute</name>
+	<path>/META-INF/tags/attribute.tag</path>
+</tag>
