@@ -26,8 +26,8 @@
 		try
 		{
 			String jdbcUrl = "jdbc:mysql://localhost:3306/jsptest?serverTimezone=UTC";
-			String dbId = "rwb";
-			String dbPass = "rwb";
+			String dbId = "root";
+			String dbPass = "root";
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			

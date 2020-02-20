@@ -28,12 +28,12 @@
 	<!--
 	<Manager pathname="" />
 	-->
-	
+
 	<Resource name="jdbc/jsptest" auth="Container"
 		      type="javax.sql.DataSource"
 		      driverClassName="com.mysql.jdbc.Driver"
-		      username="rwb"
-		      password="rwb"
-		      url="jdbc:mysql://localhost:3306/jsptest?serverTimezone=UTC"
+		      username="root"
+		      password="root"
+		      url="jdbc:mysql://localhost:3306/jsptest?serverTimezone=UTC&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"
 		      maxWait="5000" />
 </Context>

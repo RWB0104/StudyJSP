@@ -10,5 +10,5 @@ CREATE TABLE `board`
 	readcount INT DEFAULT 0,
 	ref INT NOT NULL,
 	re_step SMALLINT NOT NULL,
-	re_lebel SMALLINT NOT NULL
+	re_level SMALLINT NOT NULL
 );
